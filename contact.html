@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Contact — MS Studio</title>
+<meta name="description" content="Start a project with MS Studio. Tell Malak Sameh about your footage, deadline and deliverables." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<header class="site-header">
+  <div class="topstrip">
+    <div class="ts-left"><span class="rec-dot" aria-hidden="true"></span><span>MS Studio — Cairo, EG</span><span class="dim">/ 30.04°N 31.23°E</span></div>
+    <div class="ts-mid">Film &amp; Video Editing · <span class="amber">Booking Q3 2026</span></div>
+    <div class="ts-right"><span class="dim">Local</span><span id="clock">--:--:--</span></div>
+  </div>
+  <div class="nav">
+    <a class="brand" href="index.html"><span class="mark">MS</span><span class="btext"><b>MS Studio</b><small>Film Editing</small></span></a>
+    <button class="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    <nav class="navlinks">
+      <a href="work.html">Work</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a class="navcta" href="contact.html" aria-current="page"><span class="dot"></span>Start a project</a>
+    </nav>
+  </div>
+</header>
+
+<main class="page" data-screen-label="Contact">
+
+  <section class="phero first">
+    <div class="container">
+      <div class="eyebrow"><span class="amber">●</span> Currently booking Q3 2026</div>
+      <h1>Fade <em>in</em>.</h1>
+      <p class="lede">Tell me about the footage, the deadline and where it needs to live. I reply within one business day.</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="contact-inner">
+
+        <!-- FORM -->
+        <form class="form" novalidate>
+          <div class="frow">
+            <div class="field"><label for="name">Your name</label><input id="name" name="name" type="text" placeholder="Jane Director" /></div>
+            <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@studio.com" /></div>
+          </div>
+          <div class="field">
+            <label>Project type</label>
+            <div class="chips" data-multi="true">
+              <button type="button">Narrative</button>
+              <button type="button">Documentary</button>
+              <button type="button">Brand / Commercial</button>
+              <button type="button">Music video</button>
+              <button type="button">Social cutdowns</button>
+            </div>
+          </div>
+          <div class="frow">
+            <div class="field">
+              <label for="timeline">Deadline</label>
+              <select id="timeline" name="timeline">
+                <option>This week — rush</option>
+                <option>2–4 weeks</option>
+                <option>1–3 months</option>
+                <option>Flexible / ongoing</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="length">Footage volume</label>
+              <select id="length" name="length">
+                <option>Under an hour</option>
+                <option>A few hours</option>
+                <option>A day or two of rushes</option>
+                <option>Hundreds of hours</option>
+              </select>
+            </div>
+          </div>
+          <div class="field"><label for="brief">The brief</label><textarea id="brief" name="brief" placeholder="What's the film about, who's it for, and where will it live? Drop a link to footage or a reference reel if you have one."></textarea></div>
+          <button class="btn" type="submit">Send the brief →</button>
+          <div class="form-note">Your details stay between us. No newsletter, no spam — just a reply.</div>
+        </form>
+
+        <!-- INFO -->
+        <div class="contact-info">
+          <div>
+            <a class="contact-mail" href="mailto:hello@msstudio.film">hello@msstudio.film</a>
+          </div>
+          <div class="row"><div class="dim">Studio</div><div><b>Zamalek, Cairo</b> — Egypt</div></div>
+          <div class="row"><div class="dim">Availability</div><div><b>Q3 2026</b> — taking bookings</div></div>
+          <div class="row"><div class="dim">Timezone</div><div><b>GMT+2</b> — overlaps EU &amp; Gulf</div></div>
+          <div class="row"><div class="dim">Phone · Telegram · WhatsApp</div><div><b>+20 10 0 000 0000</b></div></div>
+          <div class="row"><div class="dim">Elsewhere</div><div class="socials"><a href="#">Vimeo</a><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">IMDb</a></div></div>
+          <div class="row" style="margin-top:8px"><div class="dim">Office hours</div><div><b>Sun–Thu · 10:00–19:00</b> EET</div></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SHORT FAQ -->
+  <section>
+    <div class="container">
+      <div class="chapter"><div><span class="num">01.</span> Before you write</div><h2>Quick <span class="it">answers</span>.</h2></div>
+      <div class="faq">
+        <details open><summary>How fast can you start?<span class="pm">+</span></summary><p>For social cutdowns and short brand pieces, often within the week. Larger narrative or doc projects book ahead — currently from Q3 2026. A quick message tells you exactly where the queue stands.</p></details>
+        <details><summary>What does a project cost?<span class="pm">+</span></summary><p>Every cut is quoted fixed, based on footage volume, deliverables and deadline — no surprise hourly creep. Send the brief and you'll have a clear number before anything starts.</p></details>
+        <details><summary>Can you sign an NDA?<span class="pm">+</span></summary><p>Always, gladly. Unreleased footage stays on encrypted, access-controlled storage and is purged on request after delivery.</p></details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="index.html"><span class="mark">MS</span><span class="btext"><b>MS Studio</b><small>Film Editing</small></span></a>
+        <p>A one-editor cutting room in Cairo — narrative, documentary &amp; brand films, finished with care.</p>
+      </div>
+      <div class="foot-col"><h5>Pages</h5><a href="index.html">Home</a><a href="work.html">Work</a><a href="services.html">Services</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+      <div class="foot-col"><h5>Services</h5><a href="services.html">Story edit</a><a href="services.html">Color &amp; finishing</a><a href="services.html">Sound &amp; mix</a><a href="services.html">Motion &amp; titles</a><a href="services.html">Social cutdowns</a></div>
+      <div class="foot-col"><h5>Elsewhere</h5><a href="#">Vimeo</a><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">IMDb</a></div>
+    </div>
+    <div class="foot-bot"><div>© 2026 MS Studio · All cuts reserved</div><div class="c">Set in Instrument Serif &amp; JetBrains Mono</div><div class="r">Cairo · 30.04°N 31.23°E</div></div>
+  </div>
+</footer>
+
+<div class="scrubbar">
+  <div class="scrub-row">
+    <div><span id="scrub-tc">00:00:00:00</span></div>
+    <div class="scrub-track">
+      <div class="scrub-line"></div><div class="scrub-line played"></div>
+      <div class="scrub-ticks"><span class="major"></span><span></span><span></span><span></span><span class="major"></span><span></span><span></span><span></span><span class="major"></span><span></span><span></span><span></span><span class="major"></span><span></span><span></span><span></span><span class="major"></span></div>
+      <div class="playhead"></div>
+    </div>
+    <div>02:14:00</div>
+  </div>
+</div>
+
+<div class="tweaks" id="tweaks">
+  <h4>Tweaks <span class="x" id="tw-close">close ✕</span></h4>
+  <div class="tw-section"><div class="tw-label">Theme</div><div class="tw-row" data-key="theme"><button data-val="cinema">Cinema</button><button data-val="paper">Paper</button><button data-val="amber">Amber room</button></div></div>
+  <div class="tw-section"><div class="tw-label">Accent</div><div class="tw-row" data-key="accent"><button data-val="amber">Amber</button><button data-val="red">Red</button><button data-val="cyan">Cyan</button><button data-val="lime">Lime</button></div></div>
+  <div class="tw-section"><div class="tw-label">Film grain</div><div class="tw-slider"><input type="range" min="0" max="1" step="0.05" id="tw-grain" /><span class="mono" id="tw-grain-v">50%</span></div></div>
+</div>
+
+<script src="js/site.js"></script>
+</body>
+</html>
