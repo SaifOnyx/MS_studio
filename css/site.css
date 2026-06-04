@@ -402,8 +402,8 @@ footer.site-footer{padding:64px 32px 90px;border-top:1px solid var(--line)}
   .navcta{border:1px solid var(--amber);justify-content:center;margin-top:14px;border-radius:0}
   section{padding:72px 24px}
   .chapter{grid-template-columns:1fr;gap:12px;margin-bottom:36px}
-  .works,.work.w7,.work.w5,.work.w6,.work.w4,.work.w8{grid-column:span 12!important}
   .works{grid-template-columns:1fr}
+  .work{grid-column:1/-1!important}
   .pillars,.tools-grid,.about-grid,.contact-inner,.stats,.clients,.packages,.quotes{grid-template-columns:1fr;gap:32px}
   .svc{grid-template-columns:1fr;gap:14px}
   .svc .svc-tags{text-align:left;flex-direction:row;flex-wrap:wrap;gap:14px}
